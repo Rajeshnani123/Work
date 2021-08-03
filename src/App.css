@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  background-color: #fff;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: rgba(114, 18, 223, 0.377);
+  text-shadow: aqua 3px;
+  font-family: "Permanent Marker", cursive;
+}
+
+.App-link {
+  color: #cbd2d4;
+}
+
+.cardmain {
+  padding: 10px;
+  border-radius: 1px;
+  box-shadow: black 2px;
+}

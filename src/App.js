@@ -22,7 +22,7 @@ const App = () => {
           </div>
           <Design />
         </Route>
-        <Route exact path="/Slides">
+        <Route exact path="/">
           <div className="App">
             <h1>Sri Durga Glass</h1>
             <header className="App-header">

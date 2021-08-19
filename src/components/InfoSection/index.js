@@ -30,6 +30,7 @@ const InfoSection = ({
   alt,
   primary,
   dark,
+  ahref,
   dark2,
 }) => {
   console.log(img);
@@ -45,7 +46,7 @@ const InfoSection = ({
                 <Subtitle darkText={darkText}> {description}</Subtitle>
                 <BtnWrap>
                   <Button
-                    to="home"
+                    href={ahref}
                     smooth={true}
                     duration={500}
                     spy={true}

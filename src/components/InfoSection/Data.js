@@ -32,6 +32,7 @@ export const homeObjOne = {
   dark: false,
   primary: false,
   darkText: true,
+  ahref: "/designs",
 };
 
 export const homeObjtwo = {
@@ -50,6 +51,7 @@ export const homeObjtwo = {
   dark: "true",
   primary: true,
   darkText: false,
+  ahref: "/Slides",
 };
 
 export const homeObjthree = {
@@ -68,6 +70,7 @@ export const homeObjthree = {
   dark: false,
   primary: true,
   darkText: true,
+  ahref: "/Works",
 };
 
 export const homeObjfour = {

@@ -18,7 +18,7 @@ const Services = () => {
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Icon1} />
-          <ServicesH2>Reduces expenses</ServicesH2>
+          <ServicesH2>Reduces expense</ServicesH2>
           <ServicesP> we help to repair your glass</ServicesP>
         </ServicesCard>
         <ServicesCard>

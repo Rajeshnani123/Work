@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import { Link } from "react-scroll";
+import { Button as btn } from "react-bootstrap";
 
-export const Button = styled(Link)`
+export const Button = styled(btn)`
   border-radius: 50px;
   background: ${({ primary }) => (primary ? "#01BF71" : "#010606")};
   white-space: nowrap;
@@ -17,7 +17,7 @@ export const Button = styled(Link)`
   transition: all 0.2s ease-in-out;
 
   &:hover {
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
     background: ${({ primary }) => (primary ? "#fff" : "#01BF71")};
   }
 `;

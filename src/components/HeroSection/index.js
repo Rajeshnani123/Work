@@ -26,12 +26,12 @@ const Herosection = () => {
       <HeroContent>
         <HeroH1>Glass Works</HeroH1>
         <HeroP>
-          Sign up for a new account to today and receive $250 in credit towards
-          your next payment.
+          We care for your glass. Try Us, we make sure that you won't regret
+          that
         </HeroP>
         <HeroBtnWrapper>
           <Button
-            to="signup"
+            to="about"
             onMouseEnter={onHover}
             onMouseLeave={onHover}
             primary={true}

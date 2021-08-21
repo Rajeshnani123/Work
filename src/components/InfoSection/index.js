@@ -46,7 +46,6 @@ const InfoSection = ({
                 <Subtitle darkText={darkText}> {description}</Subtitle>
                 <BtnWrap>
                   <Button
-                    href={ahref}
                     smooth={true}
                     duration={500}
                     spy={true}
@@ -57,7 +56,7 @@ const InfoSection = ({
                     dark2={dark2 ? 1 : 0}
                   >
                     {" "}
-                    {buttonLabel}
+                    <a href={ahref}>{buttonLabel}</a>
                   </Button>
                 </BtnWrap>
               </TextWrapper>

@@ -77,7 +77,8 @@ export const Heading = styled.h1`
 export const Subtitle = styled.p`
   max-width: 440px;
   margin-bottom: 35px;
-  font-size: 18px;
+  font-size: 17px;
+  text-align: justify;
   line-height: 24px;
   color: ${({ darkText }) => (darkText ? "#010606" : "#fff")};
 `;

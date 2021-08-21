@@ -12,20 +12,26 @@ function App() {
           <Home />
         </Route>
         <Route exact path="/designs">
-          <div className="App">
-            <h1>Sri Durga Glass</h1>
-            <header className="App-header">
-              <h2 className="title">Our Glass</h2>
-              <h1 className=""> Your's Choice</h1>
-            </header>
+          <div class="others">
+            <div class="App">
+              <h1>Sri Durga Glass</h1>
+              <header className="App-header">
+                <h2 className="title">Our Glass</h2>
+                <h1 className="title"> Your's Choice</h1>
+              </header>
+            </div>
+            <Design />
           </div>
-          <Design />
         </Route>
         <Route exact path="/Slides">
-          <SlidePage />
+          <div class="others">
+            <SlidePage />
+          </div>
         </Route>
         <Route exact path="/Works">
-          <WorkPage />
+          <div class="others">
+            <WorkPage />
+          </div>
         </Route>
       </Switch>
     </Router>

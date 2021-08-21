@@ -7,15 +7,33 @@
 
 .App {
   text-align: center;
-  background-color: #fff;
 }
 
+.others {
+  background-image: linear-gradient(
+    #fdefef,
+    #feffe2,
+    #f4dfd0,
+    #dad0c2,
+    #feffe2,
+    #f7e6ad,
+    #f5fdb0,
+    #bcffb9,
+    #feffe2,
+    #f5e8c7,
+    #feffe2
+  );
+}
+
+.title {
+  color: #fff;
+  text-shadow: 1px 0.5px #010001;
+}
 .App-header {
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
-  color: rgba(114, 18, 223, 0.377);
-  text-shadow: aqua 3px;
+
   font-family: "Permanent Marker", cursive;
 }
 
@@ -27,4 +45,8 @@
   padding: 10px;
   border-radius: 1px;
   box-shadow: black 2px;
+}
+
+.card-body {
+  text-align: center;
 }

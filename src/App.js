@@ -25,11 +25,25 @@ function App() {
         </Route>
         <Route exact path="/Slides">
           <div class="others">
+            <div class="App">
+              <h1>Sri Durga Glass</h1>
+              <header className="App-header">
+                <h2 className="title">Our Glass</h2>
+                <h1 className="title"> Your's Choice</h1>
+              </header>
+            </div>
             <SlidePage />
           </div>
         </Route>
         <Route exact path="/Works">
           <div class="others">
+            <div class="App">
+              <h1>Sri Durga Glass</h1>
+              <header className="App-header">
+                <h2 className="title">Our Glass</h2>
+                <h1 className="title"> Your's Choice</h1>
+              </header>
+            </div>
             <WorkPage />
           </div>
         </Route>
